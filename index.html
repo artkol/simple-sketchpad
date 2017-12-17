@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ETCH-A-SKETCH</title>
+</head>
+
+<body>
+  <style>
+    body {
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-gap: 1px;
+      width: 500px;
+      height: 500px;
+      margin: 0 auto
+    }
+
+    .cell {
+      margin: 0;
+      padding: 0;
+      border: 1px solid #000;
+    }
+
+    .reset {
+      display: inline-block;
+      margin: 30px;
+      padding: 5px 30px;
+    }
+  </style>
+
+  <button class="reset">Reset</button>
+  <div class="grid"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
